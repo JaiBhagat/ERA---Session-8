@@ -6,25 +6,27 @@ The Python script utilizes PyTorch to implement the Neural Network model and eva
 
 The Neural Network code provided allows you to choose the type of normalization you want to use in the network.
 
-## Network with Group Normalization
-Graph and Results
-
-Graph_GroupNorm
-
-## Network with Layer Normalization
-Graph and Results
-
-Graph_LayerNorm
-
-## Network with Batch Normalization
-Graph and Results
-
-Graph_BatchNorm
-
-All graphs represent accuracy vs epoch curves for the respective normalization techniques.
-
 ## Collection of Misclassified Images
 Here are some of the images that the models with different normalization techniques misclassified.
+
+### Network with Group Normalization
+
+![Group Norm](./pictures/group.PNG)
+
+### Network with Layer Normalization
+
+![Layer Norm](./pictures/layer.PNG)
+
+### Network with Batch Normalization
+
+![Batch Norm](./pictures/batch.PNG)
+
+
+## Training and Test Loss Comparison across three normalization technique
+
+![train loss](./pictures/loss.PNG)
+
+![test loss](./pictures/test loss.PNG)
 
 
 
