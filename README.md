@@ -11,22 +11,22 @@ Here are some of the images that the models with different normalization techniq
 
 ### Network with Group Normalization
 
-![Group Norm](./pictures/group.PNG)
+![group](./pictures/group.png)
 
 ### Network with Layer Normalization
 
-![Layer Norm](./pictures/layer.PNG)
+![Layer Norm](./pictures/layer.png)
 
 ### Network with Batch Normalization
 
-![Batch Norm](./pictures/batch.PNG)
+![Batch Norm](./pictures/batch.png)
 
 
 ## Training and Test Loss Comparison across three normalization technique
 
-![train loss](./pictures/loss.PNG)
+![train loss](./pictures/loss.png)
 
-![test loss](./pictures/test loss.PNG)
+![test loss](./pictures/test.png)
 
 
 
